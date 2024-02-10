@@ -148,6 +148,29 @@ const needs = [
   "SAÚDE",
 ];
 
+const movies = [
+  "Duas vidas",
+  "As vantagens de ser invisível",
+  "O fabuloso destino de Amélie Poulain",
+  "Manchester à Beira-Mar",
+  "Pequena Miss Sunshine",
+  "Um homem chamado Ove",
+  "Árvore da Vida",
+  "Lady Bird",
+  "Álbum de Família",
+  "A vida secreta das abelhas",
+  "Intocáveis",
+  "Big Fish",
+  "Para sempre Alice",
+  "Encanto",
+  "Estão todos bem",
+  "RED",
+  "Elementos",
+  "Divertidamente",
+  "La Belle Verte",
+  "A viagem de Chihiro",
+];
+
 const App = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -213,6 +236,7 @@ const App = () => {
               <Randomizer title="Check-in de hoje" words={checkIns} />
               <Randomizer title="Sentimento para discussão" words={feelings} />
               <Randomizer title="Necessidade para discussão" words={needs} />
+              <Randomizer title="Filme do mês" words={movies} />
 
               <div className="mt-6">
                 <Timeline />
